@@ -36,7 +36,9 @@ android {
 }
 
 dependencies {
-
+    implementation (javax.xml.bind:jaxb-api:2.3.1)
+    implementation (org.glassfish.jaxb:jaxb-runtime:2.3.1)
+    implementation (javax.activation:activation:1.1.1)
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
